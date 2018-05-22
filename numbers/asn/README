@@ -1,0 +1,9 @@
+ASN from first 1e6 digits of pi, phi and e
+
+ASN length 9,997 digits
+
+Digit includes the distance to the previous digit.
+
+cd ../..
+
+bin/makeasn | grep asn | cut -d " " -f 2,7 > asn.txt
